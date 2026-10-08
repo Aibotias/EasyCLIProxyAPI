@@ -1,0 +1,5 @@
+# Defaults for `bun tauri dev` / plain cargo builds, matching build.ps1.
+# Explicit environment variables (as set by build.ps1) still take precedence.
+[env]
+GITCODE_GUI_REPOSITORY = "lzt404/EasyCLIProxyAPI"
+GITCODE_CORE_REPOSITORY = "lzt404/CLIProxyAPI"
